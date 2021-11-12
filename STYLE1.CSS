@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid #eee;
+
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 10px 2px rgb(rgb(223, 219, 219), rgb(244, 247, 244), rgb(229, 229, 233));
+}
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgba(225, 238, 241, 0.39);
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#footer-content{
+    background: #eee;
+    border-top: 1px solid black;
+}
